@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+.form{
+    display: flex;
+    min-height: 250px;
+    gap: 0px 10px;
+    padding: 20px;
+    background-color: rgb(131, 131, 183);
+}
+.money{
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    padding-left:10px;
+}
+
+.result{
+    border: 1px solid black;
+    min-width: 100px;  
+    height: 50px;
+    cursor: pointer;
+    background-color:white;
+}
+
+.working{
+    width: 100px;  
+    height: 50px;
+    cursor: pointer;
+    align-self: flex-end;
+    border-radius: 10px;
+    background-color: chartreuse;
+}
+.working:hover{
+    background-color: rgb(94, 183, 6);
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    gap: 10px 0px;
+}
+.amount-money{
+  border: 1px solid black;
+  max-width: 100px;
+  height: 50px;
+  cursor: pointer;
+  background-color: white;
+}
+.amount-money:hover{
+  background-color: rgb(193, 193, 193);
+}
+
+.money-list{
+    display: none;
+}
+.money-types_money1{
+    border: 1px solid black;
+    cursor: pointer;
+}
+.money-types_money1:hover{
+  background-color: rgb(193, 193, 193);
+}
+.money-types_money2{
+    border: 1px solid black;
+    cursor: pointer;
+}
+.money-types_money2:hover{
+    background-color: rgb(193, 193, 193);
+  }
+.money-types_money3{
+    border: 1px solid black;
+    cursor: pointer;
+}
+.money-types_money3:hover{
+    background-color: rgb(193, 193, 193);
+  }
